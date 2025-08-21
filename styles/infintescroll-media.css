@@ -1,0 +1,602 @@
+@media (max-width: 1300px) {
+  .wrapper {
+    width: 100%;
+    max-width: 153.6rem;
+    margin-inline: auto;
+    position: relative;
+    height: 4rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1) 5%,
+      rgba(0, 0, 0, 1) 95%,
+      rgba(0, 0, 0, 0)
+    );*/
+  }
+
+  @keyframes scrollLeft {
+    to {
+      left: -110rem;
+    }
+  }
+
+  .item {
+    width: 50rem;
+    height: 100%;
+    color: white;
+    background-color: #f57faa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    /*background-color: #0071FF;*/
+    /*background:linear-gradient(90deg,#f57faa);*/
+    position: absolute;
+    left: max(calc(7rem * 8), 210%);
+    animation-name: scrollLeft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  .ads-dot {
+    height: .5rem;
+    width: .5rem;
+    background-color: white;
+    border-radius: 1rem;
+  }
+
+  .item1 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+  }
+
+  .item2 {
+    animation-delay: calc(30s / 8 * (8 - 2) * -1);
+  }
+
+  .item3 {
+    animation-delay: calc(30s / 8 * (8 - 3) * -1);
+  }
+
+  .item4 {
+    animation-delay: calc(30s / 8 * (8 - 4) * -1);
+  }
+
+  .item5 {
+    animation-delay: calc(30s / 8 * (8 - 5) * -1);
+  }
+
+  .item6 {
+    animation-delay: calc(30s / 8 * (8 - 6) * -1);
+  }
+
+  .item7 {
+    animation-delay: calc(30s / 8 * (8 - 7) * -1);
+  }
+
+  .item8 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  }
+
+  .item9 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  }
+
+  .item10 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  }
+}
+
+@media (max-width: 1251px) {
+  .wrapper {
+    width: 100%;
+    max-width: 153.6rem;
+    margin-inline: auto;
+    position: relative;
+    height: 4rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1) 5%,
+      rgba(0, 0, 0, 1) 95%,
+      rgba(0, 0, 0, 0)
+    );*/
+  }
+
+  @keyframes scrollLeft {
+    to {
+      left: -110rem;
+    }
+  }
+
+  .item {
+    width: 48rem;
+    height: 100%;
+    color: white;
+    background-color: #f57faa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    /*background-color: #0071FF;*/
+    /*background:linear-gradient(90deg,#f57faa);*/
+    position: absolute;
+    left: max(calc(7rem * 8), 210%);
+    animation-name: scrollLeft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  .ads-dot {
+    height: .5rem;
+    width: .5rem;
+    background-color: white;
+    border-radius: 1rem;
+  }
+
+  .item1 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+  }
+
+  .item2 {
+    animation-delay: calc(30s / 8 * (8 - 2) * -1);
+  }
+
+  .item3 {
+    animation-delay: calc(30s / 8 * (8 - 3) * -1);
+  }
+
+  .item4 {
+    animation-delay: calc(30s / 8 * (8 - 4) * -1);
+  }
+
+  .item5 {
+    animation-delay: calc(30s / 8 * (8 - 5) * -1);
+  }
+
+  .item6 {
+    animation-delay: calc(30s / 8 * (8 - 6) * -1);
+  }
+
+  .item7 {
+    animation-delay: calc(30s / 8 * (8 - 7) * -1);
+  }
+
+  .item8 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  }
+
+  .item9 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  }
+
+  .item10 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  }
+}
+
+@media (max-width: 1204px) {
+  .wrapper {
+    width: 100%;
+    max-width: 153.6rem;
+    margin-inline: auto;
+    position: relative;
+    height: 4rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1) 5%,
+      rgba(0, 0, 0, 1) 95%,
+      rgba(0, 0, 0, 0)
+    );*/
+  }
+
+  @keyframes scrollLeft {
+    to {
+      left: -115rem;
+    }
+  }
+
+  .item {
+    width: 48rem;
+    height: 100%;
+    color: white;
+    background-color: #f57faa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    /*background-color: #0071FF;*/
+    /*background:linear-gradient(90deg,#f57faa);*/
+    position: absolute;
+    left: max(calc(7rem * 8), 210%);
+    animation-name: scrollLeft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  .ads-dot {
+    height: .5rem;
+    width: .5rem;
+    background-color: white;
+    border-radius: 1rem;
+  }
+
+  .item1 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+  }
+
+  .item2 {
+    animation-delay: calc(30s / 8 * (8 - 2) * -1);
+  }
+
+  .item3 {
+    animation-delay: calc(30s / 8 * (8 - 3) * -1);
+  }
+
+  .item4 {
+    animation-delay: calc(30s / 8 * (8 - 4) * -1);
+  }
+
+  .item5 {
+    animation-delay: calc(30s / 8 * (8 - 5) * -1);
+  }
+
+  .item6 {
+    animation-delay: calc(30s / 8 * (8 - 6) * -1);
+  }
+
+  .item7 {
+    animation-delay: calc(30s / 8 * (8 - 7) * -1);
+  }
+
+  .item8 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  }
+
+  .item9 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  }
+
+  .item10 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  }
+}
+
+@media (max-width: 1170px) {
+  .wrapper {
+    width: 100%;
+    max-width: 153.6rem;
+    margin-inline: auto;
+    position: relative;
+    height: 4rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1) 5%,
+      rgba(0, 0, 0, 1) 95%,
+      rgba(0, 0, 0, 0)
+    );*/
+  }
+
+  @keyframes scrollLeft {
+    to {
+      left: -72rem;
+    }
+  }
+
+  .item {
+    width: 40rem;
+    height: 100%;
+    color: white;
+    background-color: #f57faa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+    /*background-color: #0071FF;*/
+    /*background:linear-gradient(90deg,#f57faa);*/
+    position: absolute;
+    left: max(calc(7rem * 8), 210%);
+    animation-name: scrollLeft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  .ads-dot {
+    height: .5rem;
+    width: .5rem;
+    background-color: white;
+    border-radius: 1rem;
+  }
+
+  .item1 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+  }
+
+  .item2 {
+    animation-delay: calc(30s / 8 * (8 - 2) * -1);
+  }
+
+  .item3 {
+    animation-delay: calc(30s / 8 * (8 - 3) * -1);
+  }
+
+  .item4 {
+    animation-delay: calc(30s / 8 * (8 - 4) * -1);
+  }
+
+  .item5 {
+    animation-delay: calc(30s / 8 * (8 - 5) * -1);
+  }
+
+  .item6 {
+    animation-delay: calc(30s / 8 * (8 - 6) * -1);
+  }
+
+  .item7 {
+    animation-delay: calc(30s / 8 * (8 - 7) * -1);
+  }
+
+  .item8 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  }
+
+  .item9 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  }
+
+  .item10 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  }
+}
+
+@media (max-width: 1100px) {
+
+  @keyframes scrollLeft {
+    to {
+      left: -80rem;
+    }
+  }
+
+}
+
+@media (max-width: 1062px) {
+
+  @keyframes scrollLeft {
+    to {
+      left: -97rem;
+    }
+  }
+
+}
+
+@media (max-width: 989px) {
+
+  .wrapper {
+    width: 100%;
+    max-width: 153.6rem;
+    margin-inline: auto;
+    position: relative;
+    height: 4rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1) 5%,
+      rgba(0, 0, 0, 1) 95%,
+      rgba(0, 0, 0, 0)
+    );*/
+  }
+
+  @keyframes scrollLeft {
+    to {
+      left: -65rem;
+    }
+  }
+
+  .item {
+    width: 45rem;
+    height: 100%;
+    color: white;
+    background-color: #f57faa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    /*background-color: #0071FF;*/
+    /*background:linear-gradient(90deg,#f57faa);*/
+    position: absolute;
+    left: max(calc(7rem * 8), 210%);
+    animation-name: scrollLeft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  .ads-dot {
+    height: .5rem;
+    width: .5rem;
+    background-color: white;
+    border-radius: 1rem;
+  }
+
+}
+
+@media (max-width: 948px) {
+
+  @keyframes scrollLeft {
+    to {
+      left: -80rem;
+    }
+  }
+
+}
+
+@media (max-width: 892px) {
+
+  @keyframes scrollLeft {
+    to {
+      left: -96rem;
+    }
+  }
+
+}
+
+@media (max-width: 836px) {
+
+  @keyframes scrollLeft {
+    to {
+      left: -113rem;
+    }
+  }
+
+}
+
+@media (max-width: 780px) {
+
+  @keyframes scrollLeft {
+    to {
+      left: -129rem;
+    }
+  }
+
+}
+
+@media (max-width: 730px) {
+
+  @keyframes scrollLeft {
+    to {
+      left: -144rem;
+    }
+  }
+
+}
+
+@media (max-width: 680px) {
+
+  @keyframes scrollLeft {
+    to {
+      left: -160rem;
+    }
+  }
+
+}
+
+@media (max-width: 620px) {
+
+  @keyframes scrollLeft {
+    to {
+      left: -176rem;
+    }
+  }
+
+}
+
+@media (max-width: 620px) {
+
+  @keyframes scrollLeft {
+    to {
+      left: -176rem;
+    }
+  }
+
+}
+
+@media (max-width: 566px) {
+
+  @keyframes scrollLeft {
+    to {
+      left: -192rem;
+    }
+  }
+
+}
+
+@media (max-width: 510px) {
+
+  @keyframes scrollLeft {
+    to {
+      left: -209rem;
+    }
+  }
+
+}
+
+@media (max-width: 510px) {
+
+  @keyframes scrollLeft {
+    to {
+      left: -209rem;
+    }
+  }
+
+}
+
+@media (max-width: 455px) {
+
+  @keyframes scrollLeft {
+    to {
+      left: -226rem;
+    }
+  }
+
+}
+
+@media (max-width: 396px) {
+
+  @keyframes scrollLeft {
+    to {
+      left: -243rem;
+    }
+  }
+
+}
+
+@media (max-width: 396px) {
+
+  @keyframes scrollLeft {
+    to {
+      left: -243rem;
+    }
+  }
+
+}
+
+@media (max-width: 340px) {
+
+  @keyframes scrollLeft {
+    to {
+      left: -259rem;
+    }
+  }
+
+}
+

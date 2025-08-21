@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  height: 100rem;
+}
+
+.wrapper {
+  margin-top: 0;
+  width: 100%;
+  max-width: 153.6rem;
+  margin-inline: auto;
+  height: 5rem;
+  position: relative;
+  overflow: hidden;
+  /*mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 5%,
+    rgba(0, 0, 0, 1) 95%,
+    rgba(0, 0, 0, 0)
+  );*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -300px;
+  }
+}
+
+@keyframes scrollRight {
+  to {
+    right: -200px;
+  }
+}
+
+.itemLeft,
+.itemRight {
+  width: 28.5rem;
+  height: 5rem;
+  border-radius: .6rem;
+  position: absolute;
+  animation-timing-function: linear;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+
+.itemLeft {
+  left: max(calc(20rem * 8), 193%);
+  animation-name: scrollLeft;
+}
+
+.itemRight {
+  right: max(calc(20rem * 8), calc(255% + 200px));
+  animation-name: scrollRight;
+  width: 40rem;
+}
+
+.item1 {
+  animation-delay: calc(30s / 8 * (8 - 1) * -1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itemLeft .dot {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 2rem;
+  background: #c6567f;
+}
+
+.itemLeft .smile {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.itemRight .dot {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 2rem;
+  background: #c6567f;
+}
+
+.itemRight .love {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.item2 {
+  animation-delay: calc(30s / 8 * (8 - 2) * -1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item3 {
+  animation-delay: calc(30s / 8 * (8 - 3) * -1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item4 {
+  animation-delay: calc(30s / 8 * (8 - 4) * -1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item5 {
+  animation-delay: calc(30s / 8 * (8 - 5) * -1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item6 {
+  animation-delay: calc(30s / 8 * (8 - 6) * -1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item7 {
+  animation-delay: calc(30s / 8 * (8 - 7) * -1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item8 {
+  animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

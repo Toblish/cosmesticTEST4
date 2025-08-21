@@ -1,0 +1,674 @@
+/*tablet*/
+@media (max-width: 860px) {
+  /*******navBox-one********/
+
+  .boxContent {
+    width: 40rem;
+    height: 40rem;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0;
+    user-select: none;
+  }
+
+  .imgWrapper {
+    width: 100%;
+    height: 48rem; /* same width as .boxContent to keep it square */
+    overflow: hidden;
+  }
+
+  .caption {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2.3rem;
+    font-size: 2rem;
+    user-select: none;
+    font-weight: 600;
+  }
+
+  /*******navBox-two********/
+  
+  .carousel-wrapperTwo {
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+  }
+
+  .boxContentTwo {
+    height: 53rem;
+
+  }
+
+  .imgWrapperTwo {
+    height: 44rem;
+  }
+
+  .nailSample-textOne {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .nailSample-textTwo {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 1.9rem;
+    font-weight: 400;
+  }
+
+  .nailSample-coins {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: grey;
+  }
+
+  .see-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+  }
+
+}
+
+/*tablet*/
+@media (max-width: 770px) {
+  /*******navBox-one********/
+
+  .boxContent {
+    width: 37rem;
+    height: 37rem;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0;
+    user-select: none;
+  }
+
+  .imgWrapper {
+    width: 100%;
+    height: 48rem; /* same width as .boxContent to keep it square */
+    overflow: hidden;
+  }
+
+  .caption {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2.3rem;
+    font-size: 2rem;
+    user-select: none;
+    font-weight: 600;
+  }
+
+  /*******navBox-two********/
+  
+  .carousel-wrapperTwo {
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+  }
+
+  .boxContentTwo {
+    height: 53rem;
+
+  }
+
+  .imgWrapperTwo {
+    height: 44rem;
+  }
+
+  .nailSample-textOne {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .nailSample-textTwo {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 1.9rem;
+    font-weight: 400;
+  }
+
+  .nailSample-coins {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: grey;
+  }
+
+  .see-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+  }
+
+}
+
+/*mobile*/
+@media (max-width: 680px) {
+  /*******navBox-one********/
+
+  .boxContent {
+    width: 55rem;
+    height: 60rem;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0;
+    user-select: none;
+  }
+
+  .imgWrapper {
+    width: 100%;
+    height: 55rem; /* same width as .boxContent to keep it square */
+    overflow: hidden;
+  }
+
+  .caption {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2.3rem;
+    font-size: 2rem;
+    user-select: none;
+    font-weight: 600;
+  }
+
+  /*******navBox-two********/
+  
+  .carousel-wrapperTwo {
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+  }
+
+  .boxContentTwo {
+    height: 64rem;
+  }
+
+  .imgWrapperTwo {
+    height: 55rem;
+  }
+
+  .nailSample-textOne {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .nailSample-textTwo {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 1.9rem;
+    font-weight: 400;
+  }
+
+  .nailSample-coins {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: grey;
+  }
+
+  .see-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+  }
+
+}
+
+/*mobile*/
+@media (max-width: 600px) {
+  /*******navBox-one********/
+
+  .boxContent {
+    width: 50rem;
+    height: 55rem;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0;
+    user-select: none;
+  }
+
+  .firstBox {
+    margin-left: 2.5rem;
+  }
+
+  .lastBox {
+    margin-right: 5rem;
+  }
+
+  .imgWrapper {
+    width: 100%;
+    height: 55rem; /* same width as .boxContent to keep it square */
+    overflow: hidden;
+  }
+
+  .caption {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2.3rem;
+    font-size: 2rem;
+    user-select: none;
+    font-weight: 600;
+  }
+
+  /*******navBox-two********/
+  
+  .carousel-wrapperTwo {
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+  }
+
+  .boxContentTwo {
+    height: 60rem;
+  }
+
+  .imgWrapperTwo {
+    height: 51rem;
+  }
+
+  .nailSample-textOne {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .nailSample-textTwo {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 1.9rem;
+    font-weight: 400;
+  }
+
+  .nailSample-coins {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: grey;
+  }
+
+  .see-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+  }
+
+}
+
+/*mobile*/
+@media (max-width: 510px) {
+  /*******navBox-one********/
+  .carousel-wrapper {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 6rem;
+    cursor: grab;
+    z-index: 2;
+  }
+
+  .boxContent {
+    width: 50rem;
+    height: 55rem;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0;
+    user-select: none;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  .carousel {
+    display: flex;
+    gap: 1.4rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .firstBox {
+    margin-left: 2.5rem;
+  }
+
+  .lastBox {
+    margin-right: 5rem;
+  }
+
+  .imgWrapper {
+    width: 100%;
+    height: 55rem; /* same width as .boxContent to keep it square */
+    overflow: hidden;
+  }
+
+  .caption {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2.3rem;
+    font-size: 2rem;
+    user-select: none;
+    font-weight: 600;
+  }
+
+  /*******navBox-two********/
+  
+  .carousel-wrapperTwo {
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+  }
+
+  .boxContentTwo {
+    height: 60rem;
+  }
+
+  .imgWrapperTwo {
+    height: 51rem;
+  }
+
+  .nailSample-textOne {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .nailSample-textTwo {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 1.9rem;
+    font-weight: 400;
+  }
+
+  .nailSample-coins {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: grey;
+  }
+
+  .see-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+  }
+
+}
+
+/*mobile*/
+@media (max-width: 450px) {
+  /*******navBox-one********/
+
+  .boxContent {
+    width: 40rem;
+    height: 45rem;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0;
+    user-select: none;
+  }
+
+  .firstBox {
+    margin-left: 2.5rem;
+  }
+
+  .lastBox {
+    margin-right: 5rem;
+  }
+
+  .imgWrapper {
+    width: 100%;
+    height: 55rem; /* same width as .boxContent to keep it square */
+    overflow: hidden;
+  }
+
+  .caption {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2.3rem;
+    font-size: 2rem;
+    user-select: none;
+    font-weight: 600;
+  }
+
+  /*******navBox-two********/
+  
+  .carousel-wrapperTwo {
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+  }
+
+  .boxContentTwo {
+    height: 60rem;
+  }
+
+  .imgWrapperTwo {
+    height: 51rem;
+  }
+
+  .nailSample-textOne {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .nailSample-textTwo {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 1.9rem;
+    font-weight: 400;
+  }
+
+  .nailSample-coins {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: grey;
+  }
+
+  .see-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+/*mobile*/
+@media (max-width: 415px) {
+  /*******navBox-one********/
+
+  .boxContent {
+    width: 35rem;
+    height: 40rem;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0;
+    user-select: none;
+  }
+
+  .firstBox {
+    margin-left: 2.5rem;
+  }
+
+  .lastBox {
+    margin-right: 5rem;
+  }
+
+  .imgWrapper {
+    width: 100%;
+    height: 55rem; /* same width as .boxContent to keep it square */
+    overflow: hidden;
+  }
+
+  .caption {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2.3rem;
+    font-size: 2rem;
+    user-select: none;
+    font-weight: 600;
+  }
+
+  /*******navBox-two********/
+  
+  .carousel-wrapperTwo {
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+  }
+
+  .boxContentTwo {
+    height: 60rem;
+  }
+
+  .imgWrapperTwo {
+    height: 51rem;
+  }
+
+  .nailSample-textOne {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .nailSample-textTwo {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 1.9rem;
+    font-weight: 400;
+  }
+
+  .nailSample-coins {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: grey;
+  }
+
+  .see-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+/*mobile*/
+@media (max-width: 370px) {
+  /*******navBox-one********/
+
+  .boxContent {
+    width: 32rem;
+    height: 37rem;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0;
+    user-select: none;
+  }
+
+  .firstBox {
+    margin-left: 2.5rem;
+  }
+
+  .lastBox {
+    margin-right: 5rem;
+  }
+
+  .imgWrapper {
+    width: 100%;
+    height: 55rem; /* same width as .boxContent to keep it square */
+    overflow: hidden;
+  }
+
+  .caption {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2.3rem;
+    font-size: 2rem;
+    user-select: none;
+    font-weight: 600;
+  }
+
+  /*******navBox-two********/
+  
+  .carousel-wrapperTwo {
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+  }
+
+  .boxContentTwo {
+    height: 49rem;
+  }
+
+  .imgWrapperTwo {
+    height: 40rem;
+  }
+
+  .nailSample-textOne {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .nailSample-textTwo {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 1.9rem;
+    font-weight: 400;
+  }
+
+  .nailSample-coins {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: grey;
+  }
+
+  .see-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+  }
+}

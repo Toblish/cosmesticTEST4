@@ -1,0 +1,397 @@
+.top-background-img {
+  position: relative;
+  width: 100vw;
+  height: 75vh;
+  background-color: #A53860;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-background-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 100% 55%;
+}
+
+.img-buttom-left {
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  bottom: 6.5rem;
+  left: 5rem;
+  font-size: 9rem;
+  font-weight: 800;
+  line-height: .95;
+  -webkit-text-size-adjust: 100%;
+  /*color: #f57faa;#F0F0F0*/
+  color: #FAF7F1;
+
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
+  animation-delay: 0.3s; /* optional delay */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px); /* optional subtle upward movement */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.line-box {
+  padding: 0 5rem;
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  height: .26rem;
+  width: 100%;
+}
+
+.straight-line {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.word-underline-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 3.5rem;
+  font-weight: 500;
+  font-family: "Playfair Display", serif;
+  padding-right: .4rem;
+}
+
+/***********Lashes, Box, Text***************/
+.text-LS-Box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 4rem;
+  padding-left: 5rem;
+}
+
+.era-text {
+  /*font-family: "Oswald", sans-serif;
+  font-family: 'Kalam', cursive;*/
+  font-family: "Playfair Display", serif;
+  overflow: hidden;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  /*animation: autoShowAnimation both;
+  animation-timeline: view(1% 5%);*/
+}
+
+#text {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1;
+  width: 100%;
+  background: linear-gradient(90deg, /*#D5389C*/#212020);
+  -webkit-background-clip: text; /* For Safari/Chrome */
+  background-clip: text; /* Standard property */
+  -webkit-text-fill-color: transparent; /* For Safari/Chrome */
+  color: transparent; /* Fallback for other browsers */
+
+}
+
+.cursor::after {
+  content: '|';
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.LS-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48rem;
+  height: 32rem;
+}
+
+.LS-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  will-change: transform; /* smoother performance */
+  transform: translateZ(0) rotate(0deg) scale(0); 
+  transition: transform 0.8s ease-in-out; /* smooth scroll-trigger feel */
+}
+
+/***********secondBackgroundimg-box************/
+.secondBGimg-box {
+  height: 90vh;
+  width: 100%;
+  position: relative;
+}
+
+.secondBGimg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.CFav-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 30%;
+}
+
+.CFav-text {
+  font-size: 7rem;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  /*font-family: "Prata", serif;*/
+}
+
+.CFav-content {
+  display: none;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2.1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.shop-now {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: white;
+  color: black;
+  display: inline;
+  padding: 1.2rem 2rem;
+  text-decoration: none;
+}
+
+/**************nailsText-box****************/
+
+.nailstextShop-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5rem;
+  margin-top: 4rem;
+}
+
+.nailsText-box {
+  line-height: 4.5rem;
+}
+
+.nailsText {
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+}
+
+.nailsText-content {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nailsText-shopNow {
+  text-decoration: none;
+  color: #212020;
+}
+
+.nailsText-shopNow button {
+  -webkit-appearance: none; /* iOS Safari reset */
+  appearance: none;         /* Reset in all browsers */
+  border: .13rem solid #212020; /* Explicit border */
+  background-color: #FAF7F1;
+  font-family: "Montserrat", sans-serif;
+  padding: 1rem 2rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 0; /* Remove iOS default rounding */
+  color: #212020;   /* Force text color */
+}
+
+/*************ThirdBackgroundimg-box***************/
+
+.thirdBGimg-box {
+  margin-top: 7rem;
+  height: 90vh;
+  width: 100%;
+  position: relative;
+}
+
+.Lashestext-box {
+  position: absolute;
+  width: 100%;
+  bottom: 30%;
+}
+
+.Lashes-text {
+  font-family: "Prata", serif;
+} 
+
+.CFav-content {
+  display: none;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2.1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/******************lashesBox*******************/
+.lashesFlex-box {
+  margin: 4rem 6rem 0 6rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* always 2 per row */
+  gap: 3rem;
+}
+
+.lashes {
+  aspect-ratio: 1 / 1;   /* keeps square shape */
+  width: 100%;           /* fills grid cell */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lashes img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* keeps image looking good */
+  border-radius: 8px;
+}
+
+.lashes div {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  /*font-size: clamp(1rem, 1.5vw, 1.5rem);  responsive font */
+  font-weight: 600;
+  text-align: start;
+  user-select: none;
+  background-color: #FAF7F1;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 3.4rem;
+}
+
+
+
+/******************lashesBox*******************
+
+.lashesFlex-box {
+  margin: 4rem 6rem 0 6rem;
+  gap: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* allow wrapping on smaller screens 
+}
+
+.lashesBox {
+  height: 100%;
+  gap: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.lashes {
+  height: 25rem;
+  width: 25rem;
+}
+
+.lashes img {
+  height: 100%;
+  width: 100%;
+}
+
+.lashes div {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+  user-select: none;
+  font-weight: 600;
+}*/
+
+/************Footer**************/
+
+.line-box-2 {
+  margin-top: 9rem;
+  margin-bottom: 0;
+}
+
+footer {
+  height: max-content;
+  margin-bottom: 3rem;
+  width: 100%;
+  margin-top: 7rem;
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 5rem;
+}
+
+.footerLogo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10rem;
+  font-weight: 700;
+}
+
+.footerContactNav-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerContact {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-navLink {
+  gap: .5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-navLink a {
+  text-decoration: none;
+  color: black;
+}
+
+.copyRight {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+}

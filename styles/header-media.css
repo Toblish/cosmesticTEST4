@@ -1,0 +1,79 @@
+@media (max-width: 1024px) {
+  header {
+    display: none;
+  }
+
+  .logo-box{
+    height: 12rem;
+  }
+
+  .year {
+    display: none;
+  }
+
+  .icons {
+    display: inline-flex;
+    color: black;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.4);
+  }
+
+  /* Show menu icon when navbar is closed */
+  #menu-icon {
+    display: block;
+  }
+
+  #close-icon {
+    display: none;
+  }
+
+  /* When checked, show close icon and hide menu icon */
+  #check:checked ~ .icons #menu-icon {
+    display: none;
+  }
+
+  #check:checked ~ .icons #close-icon {
+    display: block;
+  }
+
+  .navbar {
+    position: fixed;
+    height: 100%;
+    width: 100vw;
+    background-color: #A53860;
+    z-index: 500;
+  }
+
+  .nav-box {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    line-height: 8rem;
+  }
+
+  .navbar .nav-box a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .nav-a {
+    font-size: 8rem;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+  }
+
+
+  /* Hide navbar when not checked */
+  #check:not(:checked) ~ .navbar {
+    display: none;
+  }
+
+  #check:checked ~ .navbar {
+    display: block;
+  }
+}
+
+

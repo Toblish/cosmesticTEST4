@@ -1,0 +1,26 @@
+/*.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.png
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.jpg
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.svg
+  Cache-Control: public, max-age=31536000, immutable
+
+/index.html
+  Cache-Control: no-cache
+
+/2-shop.html
+  Cache-Control: no-cache
+
+/3-about.html
+  Cache-Control: no-cache
+
+/4-contact.html
+  Cache-Control: no-cache

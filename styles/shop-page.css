@@ -1,0 +1,18 @@
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.video-container video {
+  width: 95%;
+  height: 36rem;
+  object-fit: cover;
+  object-position: 100% 60%;
+  border-radius: 8px;
+
+}
+
