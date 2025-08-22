@@ -4,35 +4,29 @@ carouselWrappers.forEach(wrapper => {
   const carousel = wrapper.querySelector(".carousel");
   const leftBtn = wrapper.querySelector(".nav-left");
   const rightBtn = wrapper.querySelector(".nav-right");
-  const boxWidth = 500;
 
-  // Detect if it's mobile
+  const boxWidth = 500;
+  const swipeSpeed = 1.2; // 🔥 Control swipe sensitivity (1 = normal, >1 faster)
+
   const isMobile = /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent);
 
-  // Buttons only for PC
+  // Buttons (PC only)
   if (!isMobile) {
     function scrollCarousel(direction) {
       const maxScroll = carousel.scrollWidth - carousel.clientWidth;
       let target = carousel.scrollLeft + direction * boxWidth;
-
-      // Clamp to boundaries
       target = Math.max(0, Math.min(target, maxScroll));
 
-      carousel.scrollTo({
-        left: target,
-        behavior: "smooth"
-      });
+      carousel.scrollTo({ left: target, behavior: "smooth" });
     }
-
     leftBtn.addEventListener("click", () => scrollCarousel(-1));
     rightBtn.addEventListener("click", () => scrollCarousel(1));
   } else {
-    // Hide buttons on mobile
     leftBtn.style.display = "none";
     rightBtn.style.display = "none";
   }
 
-  // Momentum Dragging (works for both PC + Mobile)
+  // Drag/Swipe (momentum works smoothly)
   let isDragging = false;
   let startX = 0;
   let startScroll = 0;
@@ -50,6 +44,7 @@ carouselWrappers.forEach(wrapper => {
     velocity = 0;
     lastX = e.clientX;
     lastTime = Date.now();
+
     carousel.style.scrollBehavior = "auto";
     cancelAnimationFrame(momentumID);
     carousel.setPointerCapture(e.pointerId);
@@ -57,7 +52,8 @@ carouselWrappers.forEach(wrapper => {
 
   carousel.addEventListener("pointermove", (e) => {
     if (!isDragging) return;
-    const dx = e.clientX - startX;
+
+    const dx = (e.clientX - startX) * swipeSpeed; // 🔥 control swipe speed here
     carousel.scrollLeft = startScroll - dx;
 
     const now = Date.now();
@@ -80,9 +76,9 @@ carouselWrappers.forEach(wrapper => {
   carousel.addEventListener("pointerleave", endDrag);
 
   function momentumScroll(initialVelocity) {
-    let v = initialVelocity * 30; // tuned multiplier for smoother mobile
-    const friction = 0.92; // higher = smoother, longer swipe
-    const minVelocity = 0.2;
+    let v = initialVelocity * 40; // 🔥 Adjust inertia feel
+    const friction = 0.95;       // 🔥 Higher = longer glide
+    const minVelocity = 0.1;
 
     function step() {
       if (Math.abs(v) < minVelocity) {
@@ -92,7 +88,7 @@ carouselWrappers.forEach(wrapper => {
 
       let nextScroll = carousel.scrollLeft - v;
 
-      // Clamp to boundaries
+      // Boundaries
       if (nextScroll < 0) {
         nextScroll = 0;
         v = 0;
